@@ -8,75 +8,117 @@ clock:
   use24HourTime: true
   showSeconds: true
 apps:
-  - name: Github
-    url: https://github.com
-    icon:
-      library: simple-icons
-      id: github
+  - name: Mail
+    apps:
+      - name: Proton Mail
+        icon: { library: simple-icons, id: protonmail }
+        url: https://mail.proton.me/
+      - name: Outlook
+        icon: { library: lucide, id: Mail }
+        url: https://outlook.live.com/mail/0/inbox/
+      - name: GMail
+        icon: { library: simple-icons, id: gmail }
+        url: https://mail.google.com
+  - name: Tools
+    apps:
+      - name: Lucide Icons
+        icon: { library: simple-icons, id: lucide }
+        url: https://lucide.dev
+      - name: shadcn/ui
+        icon: { library: simple-icons, id: shadcnui }
+        url: https://ui.shadcn.com/docs
+      - name: Discord.dev
+        icon: { library: simple-icons, id: discord }
+        url: https://discord.dev
+  - name: Entertainment
+    apps:
+      - name: Netflix
+        icon: { library: simple-icons, id: netflix }
+        url: https://netflix.com/
+      - name: Hulu
+        icon: { library: lucide, id: Tv }
+        url: https://hulu.com/
+      - name: Crunchyroll
+        icon: { library: simple-icons, id: crunchyroll }
+        url: https://crunchyroll.com/
+      - name: YouTube
+        icon: { library: simple-icons, id: youtube }
+        url: https://youtube.com/
+  - name: Infrastructure
+    apps:
+      - name: Coolify
+        icon: { library: simple-icons, id: coolify }
+        url: https://coolify.ashmw.dev/
+      - name: Dokploy
+        icon: { library: lucide, id: Wrench }
+        url: https://dokploy.ashmw.dev/
+      - name: Proxmox
+        icon: { library: simple-icons, id: proxmox }
+        url: https://proxmox.ashmw.dev/
+  - name: Domains
+    apps:
+      - name: Namecheap
+        icon: { library: simple-icons, id: namecheap }
+        url: https://namecheap.com
+      - name: Cloudflare
+        icon: { library: simple-icons, id: cloudflare }
+        url: https://dash.cloudflare.com/
+  - name: Finance
+    apps:
+      - name: Bank of America
+        icon: { library: simple-icons, id: bankofamerica }
+        url: https://bofa.com
+      - name: Chase
+        icon: { library: simple-icons, id: chase }
+        url: https://chase.com/
+      - name: PayPal
+        icon: { library: simple-icons, id: paypal }
+        url: https://paypal.com/
+      - name: Privacy
+        icon: { library: lucide, id: CreditCard }
+        url: https://privacy.com/
 shortcuts:
   - key: g
     name: Google
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.google.com/search?q=
-    icon:
-      library: simple-icons
-      id: google
   - key: gh
     name: GitHub
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://github.com/search?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: yt
     name: YouTube
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.youtube.com/results?search_query=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: gm
     name: Google Maps
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.google.com/maps/search/?api=1&query=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: npm
     name: npm
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.npmjs.com/search?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: mdn
     name: MDN Web Docs
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://developer.mozilla.org/en-US/search?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: so
     name: Stack Overflow
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://stackoverflow.com/search?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: reddit
     name: Reddit
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.reddit.com/search/?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: wiki
     name: Wikipedia
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://en.wikipedia.org/w/index.php?search=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: imdb
     name: IMDb
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.imdb.com/find/?q=
-    icon:
-      library: lucide
-      id: Sparkle
   - key: gpt
     name: ChatGPT
+    icon: { library: lucide, id: Sparkle }
     searchUrl: https://chatgpt.com/?q=
-    icon:
-      library: lucide
-      id: Sparkle
