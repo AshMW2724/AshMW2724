@@ -1,0 +1,41 @@
+showApps: true
+showWeather: true
+city: San Angelo, Texas
+clock:
+  enabled: true
+  use24HourTime: true
+  showSeconds: true
+shortcuts:
+  - key: g
+    name: Google
+    searchUrl: https://www.google.com/search?q=
+  - key: gh
+    name: GitHub
+    searchUrl: https://github.com/search?q=
+  - key: yt
+    name: YouTube
+    searchUrl: https://www.youtube.com/results?search_query=
+  - key: gm
+    name: Google Maps
+    searchUrl: https://www.google.com/maps/search/?api=1&query=
+  - key: npm
+    name: npm
+    searchUrl: https://www.npmjs.com/search?q=
+  - key: mdn
+    name: MDN Web Docs
+    searchUrl: https://developer.mozilla.org/en-US/search?q=
+  - key: so
+    name: Stack Overflow
+    searchUrl: https://stackoverflow.com/search?q=
+  - key: reddit
+    name: Reddit
+    searchUrl: https://www.reddit.com/search/?q=
+  - key: wiki
+    name: Wikipedia
+    searchUrl: https://en.wikipedia.org/w/index.php?search=
+  - key: imdb
+    name: IMDb
+    searchUrl: https://www.imdb.com/find/?q=
+  - key: gpt
+    name: ChatGPT
+    searchUrl: https://chatgpt.com/?q=
