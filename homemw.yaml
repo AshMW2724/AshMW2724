@@ -1,12 +1,18 @@
 background:
   type: random
-showApps: false
-showWeather: false
+showApps: true
+showWeather: true
 city: San Angelo, Texas
 clock:
   enabled: true
   use24HourTime: true
   showSeconds: true
+apps:
+  - name: Github
+    url: https://github.com
+    icon:
+      library: simple-icons
+      id: github
 shortcuts:
   - key: g
     name: Google
