@@ -64,6 +64,11 @@ apps:
         icon:
           library: simple-icons
           id: youtube
+      - name: Test
+        url: https://ashmw.com
+        icon:
+          library: simple-icons
+          id: actigraph
   - name: Infrastructure
     apps:
       - name: Coolify
