@@ -42,6 +42,11 @@ apps:
         icon:
           library: simple-icons
           id: discord
+      - name: GitHub
+        url: https://github.com
+        icon:
+          library: simple-icons
+          id: github
   - name: Entertainment
     apps:
       - name: Netflix
