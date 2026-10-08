@@ -131,59 +131,59 @@ shortcuts:
     name: GitHub
     searchUrl: https://github.com/search?q=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: github
   - key: yt
     name: YouTube
     searchUrl: https://www.youtube.com/results?search_query=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: youtube
   - key: gm
     name: Google Maps
     searchUrl: https://www.google.com/maps/search/?api=1&query=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: googlemaps
   - key: npm
     name: npm
     searchUrl: https://www.npmjs.com/search?q=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: npm
   - key: mdn
     name: MDN Web Docs
     searchUrl: https://developer.mozilla.org/en-US/search?q=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: mdnwebdocs
   - key: so
     name: Stack Overflow
     searchUrl: https://stackoverflow.com/search?q=
     icon:
-      library: lucide
-      id: Sparkle
-  - key: reddit
+      library: simple-icons
+      id: stackoverflow
+  - key: r
     name: Reddit
     searchUrl: https://www.reddit.com/search/?q=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: reddit
   - key: wiki
     name: Wikipedia
     searchUrl: https://en.wikipedia.org/w/index.php?search=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: wikipedia
   - key: imdb
     name: IMDb
     searchUrl: https://www.imdb.com/find/?q=
     icon:
-      library: lucide
-      id: Sparkle
+      library: simple-icons
+      id: imdb
   - key: gpt
     name: ChatGPT
     searchUrl: https://chatgpt.com/?q=
     icon:
       library: lucide
-      id: Sparkle
+      id: BotMessageSquare
