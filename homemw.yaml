@@ -11,114 +11,174 @@ apps:
   - name: Mail
     apps:
       - name: Proton Mail
-        icon: { library: simple-icons, id: protonmail }
         url: https://mail.proton.me/
+        icon:
+          library: simple-icons
+          id: protonmail
       - name: Outlook
-        icon: { library: lucide, id: Mail }
         url: https://outlook.live.com/mail/0/inbox/
+        icon:
+          library: lucide
+          id: Mail
       - name: GMail
-        icon: { library: simple-icons, id: gmail }
         url: https://mail.google.com
+        icon:
+          library: simple-icons
+          id: gmail
   - name: Tools
     apps:
       - name: Lucide Icons
-        icon: { library: simple-icons, id: lucide }
         url: https://lucide.dev
+        icon:
+          library: simple-icons
+          id: lucide
       - name: shadcn/ui
-        icon: { library: simple-icons, id: shadcnui }
         url: https://ui.shadcn.com/docs
+        icon:
+          library: simple-icons
+          id: shadcnui
       - name: Discord.dev
-        icon: { library: simple-icons, id: discord }
         url: https://discord.dev
+        icon:
+          library: simple-icons
+          id: discord
   - name: Entertainment
     apps:
       - name: Netflix
-        icon: { library: simple-icons, id: netflix }
         url: https://netflix.com/
+        icon:
+          library: simple-icons
+          id: netflix
       - name: Hulu
-        icon: { library: lucide, id: Tv }
         url: https://hulu.com/
+        icon:
+          library: lucide
+          id: Tv
       - name: Crunchyroll
-        icon: { library: simple-icons, id: crunchyroll }
         url: https://crunchyroll.com/
+        icon:
+          library: simple-icons
+          id: crunchyroll
       - name: YouTube
-        icon: { library: simple-icons, id: youtube }
         url: https://youtube.com/
+        icon:
+          library: simple-icons
+          id: youtube
   - name: Infrastructure
     apps:
       - name: Coolify
-        icon: { library: simple-icons, id: coolify }
         url: https://coolify.ashmw.dev/
+        icon:
+          library: simple-icons
+          id: coolify
       - name: Dokploy
-        icon: { library: lucide, id: Wrench }
         url: https://dokploy.ashmw.dev/
+        icon:
+          library: lucide
+          id: Wrench
       - name: Proxmox
-        icon: { library: simple-icons, id: proxmox }
         url: https://proxmox.ashmw.dev/
+        icon:
+          library: simple-icons
+          id: proxmox
   - name: Domains
     apps:
       - name: Namecheap
-        icon: { library: simple-icons, id: namecheap }
         url: https://namecheap.com
+        icon:
+          library: simple-icons
+          id: namecheap
       - name: Cloudflare
-        icon: { library: simple-icons, id: cloudflare }
         url: https://dash.cloudflare.com/
+        icon:
+          library: simple-icons
+          id: cloudflare
   - name: Finance
     apps:
       - name: Bank of America
-        icon: { library: simple-icons, id: bankofamerica }
         url: https://bofa.com
+        icon:
+          library: simple-icons
+          id: bankofamerica
       - name: Chase
-        icon: { library: simple-icons, id: chase }
         url: https://chase.com/
+        icon:
+          library: simple-icons
+          id: chase
       - name: PayPal
-        icon: { library: simple-icons, id: paypal }
         url: https://paypal.com/
+        icon:
+          library: simple-icons
+          id: paypal
       - name: Privacy
-        icon: { library: lucide, id: CreditCard }
         url: https://privacy.com/
+        icon:
+          library: lucide
+          id: CreditCard
 shortcuts:
   - key: g
     name: Google
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.google.com/search?q=
+    icon:
+      library: simple-icons
+      id: google
   - key: gh
     name: GitHub
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://github.com/search?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: yt
     name: YouTube
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.youtube.com/results?search_query=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: gm
     name: Google Maps
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.google.com/maps/search/?api=1&query=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: npm
     name: npm
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.npmjs.com/search?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: mdn
     name: MDN Web Docs
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://developer.mozilla.org/en-US/search?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: so
     name: Stack Overflow
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://stackoverflow.com/search?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: reddit
     name: Reddit
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.reddit.com/search/?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: wiki
     name: Wikipedia
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://en.wikipedia.org/w/index.php?search=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: imdb
     name: IMDb
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://www.imdb.com/find/?q=
+    icon:
+      library: lucide
+      id: Sparkle
   - key: gpt
     name: ChatGPT
-    icon: { library: lucide, id: Sparkle }
     searchUrl: https://chatgpt.com/?q=
+    icon:
+      library: lucide
+      id: Sparkle
