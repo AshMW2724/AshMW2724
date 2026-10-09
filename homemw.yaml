@@ -138,6 +138,26 @@ apps:
         icon:
           library: lucide
           id: CreditCard
+  - name: Social
+    apps:
+      - name: Instagram
+        url: https://instagram.com
+        icon:
+          library: simple-icons
+          id: instagram
+        iconColor: '#ff0069'
+      - name: Discord
+        url: https://discord.com/app
+        icon:
+          library: simple-icons
+          id: discord
+        iconColor: '#5865f2'
+      - name: Discord PTB
+        url: https://ptb.discord.com/app
+        icon:
+          library: simple-icons
+          id: discord
+        iconColor: '#e06820'
 shortcuts:
   - key: g
     name: Google
