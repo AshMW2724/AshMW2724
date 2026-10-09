@@ -41,12 +41,13 @@ apps:
         icon:
           library: simple-icons
           id: shadcnui
+        iconColor: '#000000'
       - name: Discord.dev
         url: https://discord.dev
         icon:
           library: simple-icons
           id: discord
-        iconColor: '#000000'
+        iconColor: '#5865f2'
       - name: GitHub
         url: https://github.com
         icon:
