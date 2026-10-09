@@ -15,16 +15,19 @@ apps:
         icon:
           library: simple-icons
           id: protonmail
+        iconColor: '#6d4aff'
       - name: Outlook
         url: https://outlook.live.com/mail/0/inbox/
         icon:
           library: lucide
           id: Mail
+        iconColor: '#014ea4'
       - name: GMail
         url: https://mail.google.com
         icon:
           library: simple-icons
           id: gmail
+        iconColor: '#ea4335'
   - name: Tools
     apps:
       - name: Lucide Icons
@@ -32,6 +35,7 @@ apps:
         icon:
           library: simple-icons
           id: lucide
+        iconColor: '#f56565'
       - name: shadcn/ui
         url: https://ui.shadcn.com/docs
         icon:
@@ -42,11 +46,13 @@ apps:
         icon:
           library: simple-icons
           id: discord
+        iconColor: '#000000'
       - name: GitHub
         url: https://github.com
         icon:
           library: simple-icons
           id: github
+        iconColor: '#181717'
   - name: Entertainment
     apps:
       - name: Netflix
@@ -54,21 +60,25 @@ apps:
         icon:
           library: simple-icons
           id: netflix
+        iconColor: '#e50914'
       - name: Hulu
         url: https://hulu.com/
         icon:
           library: lucide
           id: Tv
+        iconColor: '#1de783'
       - name: Crunchyroll
         url: https://crunchyroll.com/
         icon:
           library: simple-icons
           id: crunchyroll
+        iconColor: '#ff5e00'
       - name: YouTube
         url: https://youtube.com/
         icon:
           library: simple-icons
           id: youtube
+        iconColor: '#ff0000'
   - name: Infrastructure
     apps:
       - name: Coolify
@@ -76,6 +86,7 @@ apps:
         icon:
           library: simple-icons
           id: coolify
+        iconColor: '#6b16ed'
       - name: Dokploy
         url: https://dokploy.ashmw.dev/
         icon:
@@ -86,6 +97,7 @@ apps:
         icon:
           library: simple-icons
           id: proxmox
+        iconColor: '#e57000'
   - name: Domains
     apps:
       - name: Namecheap
@@ -93,11 +105,13 @@ apps:
         icon:
           library: simple-icons
           id: namecheap
+        iconColor: '#de3723'
       - name: Cloudflare
         url: https://dash.cloudflare.com/
         icon:
           library: simple-icons
           id: cloudflare
+        iconColor: '#f38020'
   - name: Finance
     apps:
       - name: Bank of America
@@ -105,16 +119,19 @@ apps:
         icon:
           library: simple-icons
           id: bankofamerica
+        iconColor: '#012169'
       - name: Chase
         url: https://chase.com/
         icon:
           library: simple-icons
           id: chase
+        iconColor: '#117aca'
       - name: PayPal
         url: https://paypal.com/
         icon:
           library: simple-icons
           id: paypal
+        iconColor: '#002991'
       - name: Privacy
         url: https://privacy.com/
         icon:
