@@ -1,6 +1,6 @@
 background:
   type: random
-showApps: true
+launcherMode: integrated
 showWeather: true
 city: San Angelo, Texas
 clock:
